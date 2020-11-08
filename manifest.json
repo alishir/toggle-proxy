@@ -1,0 +1,23 @@
+{
+
+	"description": "Change Firefox proxy settings with just one click.",
+	"manifest_version": 2,
+	"name": "Toggle Proxy Settings",
+	"version": "1.0",
+
+	"icons": {
+		"48": "icons/disable.svg",
+		"96": "icons/disable.svg"
+	},
+
+	"background": {
+		"scripts": ["script.js"]
+	},
+
+	"browser_action": {
+		"default_icon": "icons/disable.svg"
+	},
+
+	"permissions": ["proxy"]
+
+}
